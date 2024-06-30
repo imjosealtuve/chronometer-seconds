@@ -1,0 +1,28 @@
+ 
+.desenfoque {
+    font-family: monospace;
+    color: #e0e0e0;
+    font-size: 100px;
+    text-align: center;
+    line-height: 300px;
+    text-shadow: 1px 1px 1px #000;
+    
+
+}
+.desenfoque:before {
+    content: "";
+    
+    background-image: url('imagenes/imagen.png');
+    
+     width: 1200px;
+    height: 300px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    
+    -webkit-filter: blur(5px);
+
+}
